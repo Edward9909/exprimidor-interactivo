@@ -1,4 +1,4 @@
-# Exprimidor · Forma y movimiento
+# Exprimidor · Visor 3D
 
 [Abrir la presentación](https://edward9909.github.io/exprimidor-interactivo/).
 
@@ -7,7 +7,7 @@ También puedes descargar `index.html` y abrirlo con Chrome o Edge. Es un archiv
 ## Controles
 
 - Arrastra para girar; rueda o gesto de pinza para acercar. Clic en una pieza para seleccionarla y aislarla.
-- **Mover:** apertura de la palanca, giro de la copa, reproducción, pausa y continuación de la secuencia.
+- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa, reproducción, pausa y continuación de la secuencia.
 - **Piezas:** separación regulable, unión y selección de los siete cuerpos. Al separar o aislar se ajusta el encuadre.
 - **Corte:** botón junto al visor para activarlo; plano frontal, lateral u horizontal, posición y rayado. Se puede volver a Mover conservando el corte.
 - **Materiales:** metal satinado, agarres azules y recipiente de plástico translúcido. En «Materiales y vista» se cambia el color de los agarres y la translucidez, y se activan numeración, medidas u ocultación de la carcasa.
@@ -20,6 +20,8 @@ La interfaz concentra la exploración en el modelo y conserva los ajustes al cam
 
 ## Materiales de exploración
 
+El estudio usa fondo gris azulado, iluminación de entorno HDR calculada con softboxes, reflejos PBR, mapas procedurales de rugosidad y microrelieve, y transmisión/refracción para el recipiente. Los recursos se generan localmente; el visor sigue funcionando sin conexión.
+
 La apariencia toma como referencia visual `exprimidor_final.png`: metal satinado y agarres de acabado mate. El recipiente se representa como **plástico translúcido**, confirmado por el autor. La distribución azul/metal en los dos cuerpos unidos usa máscaras locales, por lo que acompaña el movimiento sin modificar la geometría. Los límites de los agarres y los parámetros ópticos son aproximaciones visuales; no son una definición de materiales de fabricación. En corte se desactiva temporalmente la transmisión del recipiente para conservar la legibilidad de la sección.
 
 ## Alcance
@@ -30,7 +32,7 @@ Envolvente aproximada de la malla en la posición del archivo: 208.791 × 177.09
 
 Los siete cuerpos son base/recipiente, copa con mango, carcasa/cesta, palanca, enlace posterior, casquillo central y un cuerpo auxiliar lateral identificado como Body38. Este último se mantiene en la ubicación del FBX; no se le asigna una función mecánica no confirmada. Las siete mallas tienen topología cerrada y orientación de caras coherente al verificar sus vértices coincidentes.
 
-Se mantiene el principio confirmado por el autor: la palanca baja la copa y el mango lateral permite girarla. El FBX no contiene animaciones. La animación de la presentación usa articulaciones aproximadas ajustadas a la nueva posición del mecanismo y un recorrido ilustrativo. No verifica límites de carrera, contacto con fruta, roscado, fuerzas, tolerancias, colisiones ni viabilidad mecánica.
+Se mantiene el principio confirmado por el autor: la palanca baja la copa y el mango lateral permite girarla. El FBX no contiene animaciones. La apertura visual de 0° a 90° usa el pasador posterior de la palanca como eje (49, 209, 0 en coordenadas del visor); la copa y el casquillo acompañan la inclinación. Esta elección para la apertura completa es una interpretación visual pendiente de confirmación del autor, no una validación de la cinemática del CAD. El cierre devuelve la geometría a la posición exacta del archivo. No verifica límites de carrera, contacto con fruta, roscado, fuerzas, tolerancias, colisiones ni viabilidad mecánica.
 
 El acabado neutro y los colores por componente siguen disponibles como vistas alternativas. El despiece facilita la inspección y no define una secuencia de montaje. El corte se actualiza con el movimiento y marca las caras seccionadas mediante rayado.
 
