@@ -16,11 +16,11 @@ También puedes descargar `index.html` y abrirlo con Chrome o Edge. Es un archiv
 - «Controles» pliega el panel. «Restablecer» devuelve los valores iniciales.
 - Teclado: Tab para navegar, flechas en pestañas y sliders; con el visor enfocado, flechas para girar y +/− para zoom. Escape quita la selección.
 
-La interfaz toma la referencia visual naranja proporcionada por el autor: fondo cálido, panel flotante de vidrio oscuro, controles redondeados y tipografía ligera. El encuadre reserva espacio para el panel sin tapar el modelo. La interfaz concentra la exploración en el modelo y conserva los ajustes al cambiar de herramienta. En móvil el panel se sitúa debajo del visor y puede plegarse.
+La interfaz toma la nueva referencia gráfica proporcionada por el autor: panel marfil (#E8DFD5), texto y estados activos en azul profundo (#272D4E), acción principal naranja (#FF7124) y estudio grafito (#202124). Los controles se organizan en un panel lateral sólido, con líneas finas y radios de 4 px. El encuadre reserva espacio para el panel sin tapar el modelo. La interfaz concentra la exploración en el modelo y conserva los ajustes al cambiar de herramienta. En móvil el panel se sitúa debajo del visor y puede plegarse.
 
 ## Materiales de exploración
 
-El estudio usa fondo naranja con una zona central más oscura, iluminación de entorno HDR calculada con softboxes, reflejos PBR, mapas procedurales de rugosidad y microrelieve, y transmisión/refracción para el recipiente. Los recursos se generan localmente; el visor sigue funcionando sin conexión.
+El estudio usa fondo grafito con una variación tonal suave que distingue el plástico translúcido, iluminación de entorno HDR calculada con softboxes, reflejos PBR, mapas procedurales de rugosidad y microrelieve, y transmisión/refracción para el recipiente. Los recursos se generan localmente; el visor sigue funcionando sin conexión.
 
 La apariencia toma como referencia visual `exprimidor_final.png`: metal satinado y agarres de acabado mate. El recipiente se representa como **plástico translúcido**, confirmado por el autor. La distribución azul/metal en los dos cuerpos unidos usa máscaras locales, por lo que acompaña el movimiento sin modificar la geometría. Los límites de los agarres y los parámetros ópticos son aproximaciones visuales; no son una definición de materiales de fabricación. En corte se desactiva temporalmente la transmisión del recipiente para conservar la legibilidad de la sección.
 
