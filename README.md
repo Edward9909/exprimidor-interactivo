@@ -18,14 +18,14 @@ También puedes descargar `index.html` y abrirlo con Chrome o Edge. Es un archiv
 
 ## Alcance
 
-Se usa la geometría de `exprimidor iges.iges`, exportado el 6 de noviembre de 2026. Sus seis entidades principales se han triangulado para visualización. La fuente declara centímetros; el importador transforma las coordenadas a milímetros.
+Modelo actualizado el 9 de noviembre de 2026 a partir de `Configuración 1.fbx` (ensamble «Configuración 1 v9»). Se conservan sus siete cuerpos, sus posiciones relativas y las normales de superficie. Las coordenadas importadas se convierten de metros a milímetros y se reorientan para colocar la base horizontal.
 
-Envolvente aproximada de la malla en la posición del archivo: 232.006 × 170.668 × 230.683 mm (X, Y, Z). Se redondea a 232 × 171 × 231 mm en la presentación. Las cotas son de referencia visual, no de fabricación.
+Envolvente aproximada de la malla en la posición del archivo: 208.791 × 177.097 × 241.158 mm (X, Y, Z). Se redondea a 209 × 177 × 241 mm en la presentación. Son medidas de referencia visual, no cotas de fabricación.
 
-El autor confirmó que la palanca baja la copa y el mango en L la hace girar mientras presiona el cítrico. La animación ilustra ese principio con un recorrido de demostración y articulaciones aproximadas. No verifica límites de carrera, contacto con fruta, relación de rosca, fuerzas, tolerancias, colisiones ni viabilidad del mecanismo. El movimiento animado no modifica el IGES.
+Los siete cuerpos son base/recipiente, copa con mango, carcasa/cesta, palanca, enlace posterior, casquillo central y un cuerpo auxiliar lateral identificado como Body38. Este último se mantiene en la ubicación del FBX; no se le asigna una función mecánica no confirmada. Las siete mallas tienen topología cerrada y orientación de caras coherente al verificar sus vértices coincidentes.
 
-Los colores identifican componentes y no son especificaciones de material. Los nombres se asignaron por inspección de la geometría. El despiece no es una secuencia de montaje. La sección rellena las caras cortadas y las distingue con rayado; se actualiza en cada fotograma con la posición del mecanismo.
+Se mantiene el principio confirmado por el autor: la palanca baja la copa y el mango lateral permite girarla. El FBX no contiene animaciones. La animación de la presentación usa articulaciones aproximadas ajustadas a la nueva posición del mecanismo y un recorrido ilustrativo. No verifica límites de carrera, contacto con fruta, roscado, fuerzas, tolerancias, colisiones ni viabilidad mecánica.
 
-La actualización del corte vuelve a triangular las superficies originales mediante Delabella, con reparación topológica y costura de tolerancia 0.01 mm. Se verificó que las 423 caras del IGES tuvieran triangulación; la malla anterior omitía una cara de la copa. Las seis entidades y sus superficies se conservan. La sección es una herramienta visual y no una validación dimensional o mecánica.
+El acabado neutro y los colores por componente son representaciones del visor, no especificaciones de material. El despiece facilita la inspección y no define una secuencia de montaje. El corte se actualiza con el movimiento y marca las caras seccionadas mediante rayado.
 
-Conversión con Open CASCADE; visor con Three.js 0.180.0. [Documentación de Three.js](https://threejs.org/docs/).
+Importación del FBX con Blender 4.5; visor con Three.js 0.180.0. [Documentación de Three.js](https://threejs.org/docs/).
