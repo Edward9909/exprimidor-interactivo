@@ -6,15 +6,21 @@ También puedes descargar `index.html` y abrirlo con Chrome o Edge. Es un archiv
 
 ## Controles
 
-- Arrastrar: girar el modelo. Rueda o gesto de pinza: acercar y alejar.
-- Clic en una pieza: ver su descripción. «Aislar pieza» permite examinarla sola.
-- Capítulos inferiores o flechas izquierda/derecha: recorrer la presentación.
-- Piezas: cambiar la separación del despiece y seleccionar componentes.
-- Funcionamiento: abrir la palanca y girar la copa por separado, o reproducir una secuencia.
-- Corte transversal: activar una sección con caras rellenas y rayadas desde cualquier capítulo.
-- Interior: observar presión y giro con el corte activo; cambiar entre corte frontal, lateral y horizontal, desplazar el plano, ocultar la carcasa o desactivar el rayado. «Vista del corte» vuelve al encuadre ortográfico.
-- Escala: consultar la envolvente aproximada en milímetros.
-- PNG: guardar una imagen de la vista 3D actual.
+- Arrastra para girar; rueda o gesto de pinza para acercar. Clic en una pieza para seleccionarla y aislarla.
+- **Mover:** apertura de la palanca, giro de la copa, reproducción, pausa y continuación de la secuencia.
+- **Piezas:** separación regulable, unión y selección de los siete cuerpos. Al separar o aislar se ajusta el encuadre.
+- **Corte:** botón junto al visor para activarlo; plano frontal, lateral u horizontal, posición y rayado. Se puede volver a Mover conservando el corte.
+- **Materiales:** metal satinado, agarres azules y recipiente de plástico translúcido. En «Materiales y vista» se cambia el color de los agarres y la translucidez, y se activan numeración, medidas u ocultación de la carcasa.
+- Selector de acabado: Materiales, Neutro, Por pieza o Bordes.
+- Cámara: 3D, Frente, Lateral, Superior y Encuadrar. El botón de cámara descarga un PNG.
+- «Controles» pliega el panel. «Restablecer» devuelve los valores iniciales.
+- Teclado: Tab para navegar, flechas en pestañas y sliders; con el visor enfocado, flechas para girar y +/− para zoom. Escape quita la selección.
+
+La interfaz concentra la exploración en el modelo y conserva los ajustes al cambiar de herramienta. En móvil el panel se sitúa debajo del visor y puede plegarse.
+
+## Materiales de exploración
+
+La apariencia toma como referencia visual `exprimidor_final.png`: metal satinado y agarres de acabado mate. El recipiente se representa como **plástico translúcido**, confirmado por el autor. La distribución azul/metal en los dos cuerpos unidos usa máscaras locales, por lo que acompaña el movimiento sin modificar la geometría. Los límites de los agarres y los parámetros ópticos son aproximaciones visuales; no son una definición de materiales de fabricación. En corte se desactiva temporalmente la transmisión del recipiente para conservar la legibilidad de la sección.
 
 ## Alcance
 
@@ -26,6 +32,6 @@ Los siete cuerpos son base/recipiente, copa con mango, carcasa/cesta, palanca, e
 
 Se mantiene el principio confirmado por el autor: la palanca baja la copa y el mango lateral permite girarla. El FBX no contiene animaciones. La animación de la presentación usa articulaciones aproximadas ajustadas a la nueva posición del mecanismo y un recorrido ilustrativo. No verifica límites de carrera, contacto con fruta, roscado, fuerzas, tolerancias, colisiones ni viabilidad mecánica.
 
-El acabado neutro y los colores por componente son representaciones del visor, no especificaciones de material. El despiece facilita la inspección y no define una secuencia de montaje. El corte se actualiza con el movimiento y marca las caras seccionadas mediante rayado.
+El acabado neutro y los colores por componente siguen disponibles como vistas alternativas. El despiece facilita la inspección y no define una secuencia de montaje. El corte se actualiza con el movimiento y marca las caras seccionadas mediante rayado.
 
 Importación del FBX con Blender 4.5; visor con Three.js 0.180.0. [Documentación de Three.js](https://threejs.org/docs/).
