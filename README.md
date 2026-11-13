@@ -2,12 +2,12 @@
 
 [Abrir la presentación](https://edward9909.github.io/exprimidor-interactivo/).
 
-También puedes descargar `index.html` y abrirlo con Chrome o Edge. Es un archivo autónomo: incluye el modelo y el visor, y funciona sin conexión.
+También puedes descargar `index.html` y abrirlo con Chrome o Edge. El HTML incluye el modelo y el visor. Para reproducir la presentación sin conexión, descarga también la carpeta `film` junto al HTML.
 
 ## Controles
 
 - Arrastra para girar; rueda o gesto de pinza para acercar. Clic en una pieza para seleccionarla y aislarla.
-- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65°, reproducción, pausa y continuación de la secuencia.
+- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65° y control manual del movimiento. «Reproducir · 4 min» abre la presentación narrada. Se puede pausar, avanzar y activar los subtítulos en el reproductor. Al terminar o salir se recupera el visor.
 - **Piezas:** separación regulable, unión y selección de los siete cuerpos. Al separar o aislar se ajusta el encuadre.
 - **Corte:** botón junto al visor para activarlo; plano frontal, lateral u horizontal, posición y rayado. Se puede volver a Mover conservando el corte.
 - **Materiales:** metal satinado, agarres azules y recipiente de plástico translúcido. En «Materiales y vista» se cambia el color de los agarres y la translucidez, y se activan numeración, medidas u ocultación de la carcasa.
