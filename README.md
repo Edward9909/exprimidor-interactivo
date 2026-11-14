@@ -7,7 +7,7 @@ También puedes descargar `index.html` y abrirlo con Chrome o Edge. El HTML incl
 ## Controles
 
 - Arrastra para girar; rueda o gesto de pinza para acercar. Clic en una pieza para seleccionarla y aislarla.
-- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65° y control manual del movimiento. «Reproducir · 4 min» abre la presentación narrada. Se puede pausar, avanzar y activar los subtítulos en el reproductor. Al terminar o salir se recupera el visor.
+- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65° y control manual del movimiento. «Reproducir · 4 min» abre la presentación gráfica de cuatro minutos sin audio. Las líneas y los indicadores de ángulo siguen el movimiento de las piezas. El reproductor permite pausar y avanzar. Al terminar o salir se recupera el visor.
 - **Piezas:** separación regulable, unión y selección de los siete cuerpos. Al separar o aislar se ajusta el encuadre.
 - **Corte:** botón junto al visor para activarlo; plano frontal, lateral u horizontal, posición y rayado. Se puede volver a Mover conservando el corte.
 - **Materiales:** metal satinado, agarres azules y recipiente de plástico translúcido. En «Materiales y vista» se cambia el color de los agarres y la translucidez, y se activan numeración, medidas u ocultación de la carcasa.
