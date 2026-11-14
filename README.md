@@ -7,10 +7,10 @@ También puedes descargar `index.html` y abrirlo con Chrome o Edge. El HTML incl
 ## Controles
 
 - Arrastra para girar; rueda o gesto de pinza para acercar. Clic en una pieza para seleccionarla y aislarla.
-- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65° y control manual del movimiento. «Reproducir · 4 min» abre la presentación gráfica de cuatro minutos sin audio. Las líneas y los indicadores de ángulo siguen el movimiento de las piezas. El reproductor permite pausar y avanzar. Al terminar o salir se recupera el visor.
+- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65° y control manual del movimiento. «Reproducir · 4 min» abre la presentación gráfica de cuatro minutos sin audio. Los textos se superponen al render completo. El indicador aparece durante el giro de la copa y al alcanzar la apertura máxima de la palanca. El reproductor permite pausar y avanzar. Al terminar o salir se recupera el visor.
 - **Piezas:** separación regulable, unión y selección de los siete cuerpos. Al separar o aislar se ajusta el encuadre.
 - **Corte:** botón junto al visor para activarlo; plano frontal, lateral u horizontal, posición y rayado. Se puede volver a Mover conservando el corte.
-- **Materiales:** metal satinado, agarres azules y recipiente de plástico translúcido. En «Materiales y vista» se cambia el color de los agarres y la translucidez, y se activan numeración, medidas u ocultación de la carcasa.
+- **Materiales:** aluminio satinado, agarres azules y recipiente de plástico translúcido. En «Materiales y vista» se cambia el color de los agarres y la translucidez, y se activan numeración, medidas u ocultación de la carcasa.
 - Selector de acabado: Materiales, Neutro, Por pieza o Bordes.
 - Cámara: 3D, Frente, Lateral, Superior y Encuadrar. El botón de cámara descarga un PNG.
 - «Controles» pliega el panel. «Restablecer» devuelve los valores iniciales.
@@ -22,7 +22,7 @@ La interfaz toma la nueva referencia gráfica proporcionada por el autor: panel 
 
 El estudio usa fondo grafito con una variación tonal suave que distingue el plástico translúcido, iluminación de entorno HDR calculada con softboxes, reflejos PBR, mapas procedurales de rugosidad y microrelieve, y transmisión/refracción para el recipiente. Los recursos se generan localmente; el visor sigue funcionando sin conexión.
 
-La apariencia toma como referencia visual `exprimidor_final.png`: metal satinado y agarres de acabado mate. El recipiente se representa como **plástico translúcido**, confirmado por el autor. La distribución azul/metal en los dos cuerpos unidos usa máscaras locales, por lo que acompaña el movimiento sin modificar la geometría. Los límites de los agarres y los parámetros ópticos son aproximaciones visuales; no son una definición de materiales de fabricación. En corte se desactiva temporalmente la transmisión del recipiente para conservar la legibilidad de la sección.
+La apariencia toma como referencia visual `exprimidor_final.png`: aluminio satinado y agarres de acabado mate. El recipiente se representa como **plástico translúcido**, confirmado por el autor. La distribución azul/metal en los dos cuerpos unidos usa máscaras locales, por lo que acompaña el movimiento sin modificar la geometría. Los límites de los agarres y los parámetros ópticos son aproximaciones visuales; no son una definición de materiales de fabricación. En corte se desactiva temporalmente la transmisión del recipiente para conservar la legibilidad de la sección.
 
 ## Alcance
 
