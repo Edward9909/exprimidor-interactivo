@@ -7,7 +7,7 @@ También puedes descargar `index.html` y abrirlo con Chrome o Edge. El HTML incl
 ## Controles
 
 - Arrastra para girar; rueda o gesto de pinza para acercar. Clic en una pieza para seleccionarla y aislarla.
-- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65° y control manual del movimiento. «Reproducir · 4 min» abre la presentación gráfica de cuatro minutos sin audio. Los textos se superponen al render completo. El indicador aparece durante el giro de la copa y al alcanzar la apertura máxima de la palanca. El reproductor permite pausar y avanzar. Al terminar o salir se recupera el visor.
+- **Mover:** apertura de la palanca de 0° a 90°, giro de la copa de 0° a 65° y control manual del movimiento. «Reproducir · 4 min» abre la presentación gráfica de cuatro minutos sin audio. El video presenta cuatro secciones con vistas exteriores: aportaciones de diseño (0:00), usabilidad (1:15), usuario y contexto (2:30) y los ODS a los que responde (3:15). Los textos se superponen al render completo. El indicador aparece durante el giro de la copa y al alcanzar la apertura máxima de la palanca. El reproductor permite pausar y avanzar. Al terminar o salir se recupera el visor.
 - **Piezas:** separación regulable, unión y selección de los siete cuerpos. Al separar o aislar se ajusta el encuadre.
 - **Corte:** botón junto al visor para activarlo; plano frontal, lateral u horizontal, posición y rayado. Se puede volver a Mover conservando el corte.
 - **Materiales:** aluminio satinado, agarres azules y recipiente de plástico translúcido. En «Materiales y vista» se cambia el color de los agarres y la translucidez, y se activan numeración, medidas u ocultación de la carcasa.
